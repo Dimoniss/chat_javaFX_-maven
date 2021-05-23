@@ -1,5 +1,8 @@
 package com.chatGB.chat;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -16,6 +19,7 @@ public class ChatServer {
     private List<ClientHandler> clients;
     private AuthService authService;
     private ExecutorService executorService;
+    private static final Logger LOG = LogManager.getLogger(ChatServer.class);
 
 
     public ChatServer() {
@@ -27,17 +31,19 @@ public class ChatServer {
             executorService = Executors.newCachedThreadPool();
 
             while (true) {
-                System.out.println("Waiting for connection.");
+                LOG.info("Waiting for connection.");
 
                 Socket socket = server.accept();
-                System.out.println("Client connected.");
+                LOG.info("Client connected.");
 
                 new ClientHandler(socket);
             }
         } catch (IOException e) {
+            LOG.error("IOException try new socket", e);
             e.printStackTrace();
         } finally {
             if (authService != null) {
+                LOG.info("AuthService is null and stopped");
                 authService.stop();
             }
         }
@@ -45,11 +51,12 @@ public class ChatServer {
 
     public synchronized void unsubscribe(ClientHandler clientHandler) {
         clients.remove(clientHandler);
+        LOG.trace("clientHandler={}", clientHandler);
     }
 
     public synchronized void subscribe(ClientHandler clientHandler) {
         clients.add(clientHandler);
-
+        LOG.trace("clientHandler={}", clientHandler);
         displayingHistoryOfLastLinesOfMainChat(clientHandler, 100);
     }
 
@@ -77,6 +84,7 @@ public class ChatServer {
             }
 
         } catch (IOException e) {
+            LOG.error("Try get history from file", e);
             e.printStackTrace();
         }
     }
@@ -87,7 +95,7 @@ public class ChatServer {
                 new FileOutputStream("chatHistory.txt", true)));) {
             bufferedWriter.append(msg).append("\n");
         } catch (IOException e) {
-
+            LOG.error("Try save history to file", e);
             e.printStackTrace();
         }
 
@@ -104,6 +112,7 @@ public class ChatServer {
         for (ClientHandler clientHandler : clients) {
             if (clientHandler.getLastname().equals(lastname)) {
                 clientHandler.sendMsg(msg + " (private)");
+                LOG.trace("msg={}", msg);
                 System.out.println("message sent to " + clientHandler.getLastname());
             }
         }

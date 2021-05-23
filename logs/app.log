@@ -264,3 +264,353 @@
   "threadId" : 15,
   "threadPriority" : 5
 }
+{
+  "instant" : {
+    "epochSecond" : 1621778511,
+    "nanoOfSecond" : 837000000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ChatServer",
+  "message" : "Waiting for connection.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621778523,
+    "nanoOfSecond" : 844000000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ChatServer",
+  "message" : "Client connected.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621778523,
+    "nanoOfSecond" : 846000000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ChatServer",
+  "message" : "Waiting for connection.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621778523,
+    "nanoOfSecond" : 846000000
+  },
+  "thread" : "Thread-1",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "Start new client handler thread",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621778534,
+    "nanoOfSecond" : 241000000
+  },
+  "thread" : "Thread-1",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "Unauthorized user is trying to send a message",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621778557,
+    "nanoOfSecond" : 915000000
+  },
+  "thread" : "Thread-1",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "new auth b@gmail.com",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621778557,
+    "nanoOfSecond" : 918000000
+  },
+  "thread" : "Thread-1",
+  "level" : "TRACE",
+  "loggerName" : "com.chatGB.chat.ChatServer",
+  "message" : "clientHandler=com.chatGB.chat.ClientHandler@3cd9f9cf",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621778557,
+    "nanoOfSecond" : 921000000
+  },
+  "thread" : "Thread-1",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "client auth OK",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621778592,
+    "nanoOfSecond" : 257000000
+  },
+  "thread" : "Thread-1",
+  "level" : "TRACE",
+  "loggerName" : "com.chatGB.chat.ChatServer",
+  "message" : "clientHandler=com.chatGB.chat.ClientHandler@3cd9f9cf",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621778592,
+    "nanoOfSecond" : 257000000
+  },
+  "thread" : "Thread-1",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "b@gmail.com unsubscribe from broadcast",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779051,
+    "nanoOfSecond" : 787000000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ChatServer",
+  "message" : "Waiting for connection.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779056,
+    "nanoOfSecond" : 66000000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ChatServer",
+  "message" : "Client connected.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779056,
+    "nanoOfSecond" : 68000000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ChatServer",
+  "message" : "Waiting for connection.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779056,
+    "nanoOfSecond" : 68000000
+  },
+  "thread" : "Thread-1",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "Start new client handler thread",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779063,
+    "nanoOfSecond" : 865000000
+  },
+  "thread" : "Thread-1",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "Unauthorized user is trying to send a message",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779076,
+    "nanoOfSecond" : 436000000
+  },
+  "thread" : "Thread-1",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "new auth b@gmail.com",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779076,
+    "nanoOfSecond" : 439000000
+  },
+  "thread" : "Thread-1",
+  "level" : "TRACE",
+  "loggerName" : "com.chatGB.chat.ChatServer",
+  "message" : "clientHandler=com.chatGB.chat.ClientHandler@219866ff",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779076,
+    "nanoOfSecond" : 444000000
+  },
+  "thread" : "Thread-1",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "client auth OK",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779099,
+    "nanoOfSecond" : 28000000
+  },
+  "thread" : "Thread-1",
+  "level" : "TRACE",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "Ben send msg",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779111,
+    "nanoOfSecond" : 715000000
+  },
+  "thread" : "Thread-1",
+  "level" : "TRACE",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "Ben send msg",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779117,
+    "nanoOfSecond" : 112000000
+  },
+  "thread" : "Thread-1",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "Close connection from clientHandler.readMsg()",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779117,
+    "nanoOfSecond" : 112000000
+  },
+  "thread" : "Thread-1",
+  "level" : "TRACE",
+  "loggerName" : "com.chatGB.chat.ChatServer",
+  "message" : "clientHandler=com.chatGB.chat.ClientHandler@219866ff",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779117,
+    "nanoOfSecond" : 112000000
+  },
+  "thread" : "Thread-1",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "b@gmail.com unsubscribe from broadcast",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779117,
+    "nanoOfSecond" : 113000000
+  },
+  "thread" : "Thread-1",
+  "level" : "TRACE",
+  "loggerName" : "com.chatGB.chat.ChatServer",
+  "message" : "clientHandler=com.chatGB.chat.ClientHandler@219866ff",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1621779117,
+    "nanoOfSecond" : 113000000
+  },
+  "thread" : "Thread-1",
+  "level" : "INFO",
+  "loggerName" : "com.chatGB.chat.ClientHandler",
+  "message" : "b@gmail.com unsubscribe from broadcast",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 15,
+  "threadPriority" : 5
+}

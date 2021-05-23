@@ -17,3 +17,10 @@ Lee entered in chat.
 Ben entered in chat.
 15:20:50 Ben: TEST
 15:21:19 Ben: aà
+Ben entered in chat.
+Ben left the chat.
+Ben entered in chat.
+16:11:39 Ben: goood
+16:11:51 Ben: Hi man
+Ben left the chat.
+Ben left the chat.

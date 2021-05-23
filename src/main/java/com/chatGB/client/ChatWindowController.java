@@ -56,22 +56,22 @@ public class ChatWindowController {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                try {
+
                     while (true) {
                         System.out.println("Ready to read.");
-                        String strFromServer = in.readUTF();
+                        String strFromServer = null;
+                        try {
+                            strFromServer = in.readUTF();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         if (strFromServer.equalsIgnoreCase("/end")) {
                             break;
                         }
-//                        ta_display_chat.appendText("(" + LocalTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss")) +
-//                                "): " + strFromServer + "\n");
                         ta_display_chat.appendText(strFromServer + "\n");
 
                     }
-                } catch (Exception e) {
-                    System.out.println("Data input error!!!");
-                    e.printStackTrace();
-                }
+
             }
         }).start();
     }

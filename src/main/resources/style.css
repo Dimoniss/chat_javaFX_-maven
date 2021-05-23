@@ -1,0 +1,16 @@
+#ap_chat_window{
+    -fx-background-color: #969696;
+    -fx-border-color:  #d4d9dd;
+    -fx-border-width: 2px;
+}
+
+#btn_send_message, #btn_exit{
+    -fx-background-radius: 2px;
+        -fx-border-color: #424246;
+        -fx-border-width: 1px;
+        -fx-background-insets: 0;
+        -fx-text-fill: #212121;
+
+        -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0.0, 0, 1)
+}
+
